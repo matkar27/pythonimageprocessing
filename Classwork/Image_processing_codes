@@ -1,7 +1,7 @@
 ### image processing python codes
+#:/usr/bin/python
 
-#import blocks
-
+#import statement blocks
 import matplotlib.pyplot as plt
 from scipy import misc, ndimage
 
@@ -15,5 +15,6 @@ very_blurred = ndimage.gaussian_filter(face, sigma=15)
 #draw the image
 
 plt.imshow (very_blurred)
+
 #show the image
-plt.show ()
+plt.show()
