@@ -16,3 +16,4 @@ very_blurred = ndimage.gaussian_filter(face, sigma=15)
 
 plt.imshow (very_blurred)
 #show the image
+plt.show ()
